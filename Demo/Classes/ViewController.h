@@ -11,10 +11,13 @@
 @interface ViewController : UIViewController
 
 - (IBAction)show;
+
 - (IBAction)showWithStatus;
 
 - (IBAction)dismiss;
+
 - (IBAction)dismissSuccess;
+
 - (IBAction)dismissError;
 
 @end

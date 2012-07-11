@@ -10,7 +10,8 @@
 
 @class ViewController;
 
-@interface AppDelegate : NSObject <UIApplicationDelegate> {
+@interface AppDelegate : NSObject <UIApplicationDelegate>
+{
     UIWindow *window;
     ViewController *viewController;
 }

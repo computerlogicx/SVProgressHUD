@@ -12,35 +12,41 @@
 @implementation ViewController
 
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
     return YES;
 }
 
 #pragma mark -
 #pragma mark Show Methods Sample
 
-- (void)show {
-	[SVProgressHUD show];
+- (void)show
+{
+    [SVProgressHUD show];
 }
 
-- (void)showWithStatus {
-	[SVProgressHUD showWithStatus:@"Doing Stuff"];
+- (void)showWithStatus
+{
+    [SVProgressHUD showWithStatus:@"Doing Stuff"];
 }
 
 
 #pragma mark -
 #pragma mark Dismiss Methods Sample
 
-- (void)dismiss {
-	[SVProgressHUD dismiss];
+- (void)dismiss
+{
+    [SVProgressHUD dismiss];
 }
 
-- (void)dismissSuccess {
-	[SVProgressHUD showSuccessWithStatus:@"Great Success!"];
+- (void)dismissSuccess
+{
+    [SVProgressHUD showSuccessWithStatus:@"Great Success!"];
 }
 
-- (void)dismissError {
-	[SVProgressHUD showErrorWithStatus:@"Failed with Error"];
+- (void)dismissError
+{
+    [SVProgressHUD showErrorWithStatus:@"Failed with Error"];
 }
 
 @end
